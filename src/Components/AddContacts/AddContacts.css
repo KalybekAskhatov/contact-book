@@ -1,0 +1,35 @@
+.add-block {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto 0;
+}
+
+.add-block input {
+  margin: 10px 0;
+  text-align: center;
+  height: 25px;
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+  background-color: lawngreen;
+  font-size: 20px;
+  color: chocolate;
+  box-shadow: 4px 4px 91px 0px rgba(34, 60, 80, 0.57);
+}
+.add-block input:focus {
+  background-color: aqua;
+}
+
+.add-block button {
+  border-radius: 20px;
+  background-color: darkcyan;
+  height: 45px;
+  border: none;
+  font-size: 20px;
+  color: black;
+  margin-top: 10px;
+}
+.add-block button:hover {
+  transform: scale(1.1);
+}
